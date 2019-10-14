@@ -1,0 +1,35 @@
+body{
+  background-color: #cfccdb;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+h2{
+  color: #252525;
+}
+
+hr{
+  color: #fbe555;
+  background-color:  #fbe555;
+}
+
+#jumbo{
+  background-color: #1089ff;
+  color: #fbe555;
+  font-family: 'Bungee', cursive;
+}
+
+#middle{
+  background-color: #cfccdb;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  /* margin-top: -33px; */
+  padding-top: 10px;
+}
+ul{
+  font-family: 'Ubuntu', sans-serif;
+}
+li{
+  font-family: 'Ubuntu', sans-serif;
+}
+small{
+  font-family: 'Ubuntu', sans-serif;
+}
