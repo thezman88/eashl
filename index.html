@@ -12,6 +12,10 @@
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+<script src="https://kit.fontawesome.com/21f02cae4e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -39,12 +43,29 @@
             <img class="hvr-bounce-in" src="https://image.flaticon.com/icons/svg/1163/1163066.svg" alt="" style="height:100px;width:100px;">
 
           </div>
+
           <div class="card-body">
             <h3 class="card-title pricing-card-title">Captain <br><small class="text-muted">Murph</small></h3>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Goals</li>
-              <li>Assists</li>
-              <li>Points</li>
+              <label for="">
+                <li>Goals</li>
+              </label>
+              <input type="text" size="5" value="1" id="murphGoalCount">
+              <input type="button" value="-" id="murphminus" onclick="murphminus()">
+              <input type="button" value="+" id="murphGoalPlus" onclick='murphplus()'>
+              <br>
+              <label for="">
+                <li>Assists</li>
+              </label>
+              <input type="text" size="5" value="1" id="murphastcount">
+              <input type="button" value="-" id="murphassminus" onclick="murphassminus()">
+              <input type="button" value="+" id="murphassplus" onclick="murphassplus()">
+              <br>
+              <label for="">
+                <li>Points</li>
+              </label>
+              <input type="text" size="5" value="2" id="murphpointscount">
+
             </ul>
           </div>
         </div>

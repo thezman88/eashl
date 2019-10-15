@@ -24,6 +24,17 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
   /* margin-top: -33px; */
   padding-top: 10px;
 }
+#goalcount{
+  margin-left: 10px;
+
+}
+#pointscount{
+  margin-right: 50px;
+
+}
+#points{
+  margin-right: ;
+}
 ul{
   font-family: 'Ubuntu', sans-serif;
 }
