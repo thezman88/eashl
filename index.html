@@ -78,9 +78,25 @@
           <div class="card-body">
             <h3 class="card-title pricing-card-title">Assistant Captain <br><small class="text-muted">B</small></h3>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Goals</li>
-              <li>Assists</li>
-              <li>Points</li>
+              <label for="">
+                <li>Goals</li>
+              </label>
+              <input type="text" size="5" value="1" id="bobGoalCount">
+              <input type="button" value="-" id="bobminus" onclick="bobminus()">
+              <input type="button" value="+" id="bobGoalPlus" onclick='bobplus()'>
+              <br>
+              <label for="">
+                <li>Assists</li>
+              </label>
+              <input type="text" size="5" value="1" id="bobastcount">
+              <input type="button" value="-" id="bobassminus" onclick="bobassminus()">
+              <input type="button" value="+" id="bobassplus" onclick="bobassplus()">
+              <br>
+              <label for="">
+                <li>Points</li>
+              </label>
+              <input type="text" size="5" value="2" id="bobpointscount">
+
             </ul>
           </div>
         </div>

@@ -69,3 +69,54 @@ function murphassminus() {
     countAs.value = murphastcount;
   }
 }
+var bobPoints = 2;
+
+var bpoints = document.getElementById("bobpointscount")
+
+var bobGoalCount = 1;
+
+
+var countB = document.getElementById("bobGoalCount");
+
+function bobplus() {
+  bobGoalCount++;
+    bpoints.value ++
+  countB.value = bobGoalCount;
+
+
+
+}
+
+function bobminus() {
+  if (bobGoalCount > 1) {
+    bobGoalCount--;
+    bpoints.value--;
+    countB.value = bobGoalCount;
+  }
+}
+
+var bobastcount = 1;
+
+var countBAs = document.getElementById("bobastcount");
+
+function bobassplus() {
+  bobastcount++;
+bpoints.value++
+  countBAs.value = bobastcount;
+
+
+}
+
+function bobassminus() {
+  if (bobastcount > 1) {
+    bobastcount--;
+    bpoints.value--;
+    countBAs.value = bobastcount;
+  }
+}
+
+database.ref().on("child_added", function(childSnapshot) {
+  // mpoints.val().murphPoints;
+console.log('added child');
+
+      });
